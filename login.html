@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function login()
+    {
+        let a=document.getElementById("uname").value;
+        let b=document.getElementById("pass").value;
+        if(a==b)
+        {
+            window.location.href ="course.html";
+        }
+        else
+        {
+
+        }
+    }
+</script>
+<body>
+    <label>Username:</label><input type="text" name="uname" id="uname"><br/>
+    <label>Password:</label><input type="password" name="pass" id="pass"><br/>
+    <button name="login" onclick="login()">Login</button> 
+</body>
+</html>
